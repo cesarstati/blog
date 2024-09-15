@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,800;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,500;1,500&display=swap');
+
+body {
+    background-color: #F4D04E;
+    display: flex;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* h1 {
+    font-size: 24px;
+
+} */
+
+
+main {
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 384px;
+    justify-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    box-shadow: 10px 10px black;
+}
+
+main .learning {
+    font-family: Figtree;
+    font-size: 14px;
+    font-weight: 700;
+    font-style: normal;
+    background-color: #F4D04E;
+    padding: 2%;
+    color: #111111;
+    border-radius: 3px;
+    margin-right: 80%;
+}
+
+main .subtitulo {
+    font-family: Figtree;
+    font-size: 14px;
+    font-weight: 500;
+    font-style: normal;
+}
+
+main .titulo {
+
+    font-family: Figtree;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 150%;
+    letter-spacing: 0px;
+    font-style:normal;
+}
+
+main a {
+    text-decoration: none;
+    color: black ;
+}
+
+main a:hover {
+    color: #F4D04E;
+}
+
+main .texto {
+
+    font-family: Figtree;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 0px;
+    font-style:normal;
+}
+
+.img1 {
+    border-radius: 3%;
+}
+
+main .avatar {
+    float: left;
+    width: 32px;
+    margin-right: 2%;
+}
+
+main .autor {
+    font-family: Figtree;
+    font-size: 14px;
+    font-weight: 700;
+    font-style: normal;
+    float: left;
+}
+
+@media (max-width: 376px){
+	main {
+        width: 327px;
+    }
+}

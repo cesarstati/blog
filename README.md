@@ -1,2 +1,2 @@
 # blog
-Challenge in FrontEnd Mentor
+ Card para blog com link
